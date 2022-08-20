@@ -1,0 +1,267 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #1a1a29;
+}
+
+span {
+  color: #7562e0;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.collapse a {
+  color: white;
+}
+
+.collapse a:hover {
+  color: #7562e0;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#home {
+  min-height: 550px;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 10px;
+  margin-bottom: 80px;
+}
+
+.btn-custom1 {
+  background-color: #7562e0;
+  color: white;
+  border: 2px solid #7562e0;
+  text-align: center;
+  min-width: 180px;
+  height: 50px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-top: 30px;
+}
+
+.btn-custom1:hover {
+  background-color: transparent;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn-custom2 {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #7562e0;
+  text-align: center;
+  min-width: 180px;
+  height: 50px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.btn-custom2:hover {
+  color: #7562e0;
+  transition: 0.3s;
+}
+
+.line {
+  width: 100%;
+  height: 90px;
+  background-color: black;
+}
+
+.col-lg-7 h4 {
+  color: #7562e0;
+  margin: 3px;
+}
+
+.btn-custom3 {
+  background-color: #7562e0;
+  color: white;
+  border: 2px solid #7562e0;
+  text-align: center;
+  min-width: 200px;
+  height: 50px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.btn-custom3:hover {
+  background-color: transparent;
+  color: white;
+  transition: 0.3s;
+}
+
+#about .row h1 {
+  color: #7562e0;
+  margin-top: 55px;
+}
+
+#about .row hr {
+  width: 20%;
+  height: 5px;
+  color: #7562e0;
+  margin: 0 auto;
+  opacity: 100%;
+}
+
+.row p {
+  text-align: justify;
+}
+
+#about .card {
+  background-color: rgb(128, 128, 128);
+}
+
+#about .card:hover {
+  background-color: #7562e0;
+  transition: 0.3s;
+}
+
+/* service */
+#service .row h1 {
+  color: #7562e0;
+}
+
+#service hr {
+  width: 35%;
+  height: 5px;
+  color: #7562e0;
+  margin: 0 auto;
+  opacity: 100%;
+}
+
+#service .border1 {
+  background-color: #1a1a29;
+  border: 3px solid #7562e0;
+  border-radius: 5%;
+}
+
+#service .border1:hover {
+  border: 3px solid white;
+  transition: 0.3s;
+}
+
+#service .border2 {
+  background-color: #1a1a29;
+  border: 3px solid white;
+  border-radius: 5%;
+}
+
+#service .border2:hover {
+  border: 3px solid #7562e0;
+  transition: 0.3s;
+}
+
+#service .card svg {
+  margin-left: 110px;
+}
+
+#service h5 {
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 576px) {
+  #service .row .card {
+    margin-left: 60px;
+  }
+}
+/* end service */
+
+/* project */
+#project .row h1 {
+  color: #7562e0;
+}
+
+#project .row hr {
+  width: 35%;
+  height: 5px;
+  color: #7562e0;
+  margin: 0 auto;
+  opacity: 100%;
+}
+
+#project .card {
+  background-color: #31313f;
+}
+
+#project h5 {
+  color: #7562e0;
+}
+
+#project .project1 {
+  margin-left: 5px;
+}
+
+#project .btn-custom4 {
+  background-color: #7562e0;
+  width: 120px;
+}
+
+#project .btn-custom4:hover {
+  background-color: transparent;
+  color: white;
+  transition: 0.3s;
+}
+
+#project .btn-custom5 {
+  border: 2px solid #7562e0;
+  margin-left: 10px;
+}
+
+#project .btn-custom5:hover {
+  border: 2px solid white;
+  transition: 0.3s;
+}
+
+#project .btn-custom5 a:hover {
+  color: #7562e0;
+}
+
+/* end project */
+
+/* contact */
+#contact .row h1 {
+  color: #7562e0;
+}
+
+#contact .row hr {
+  width: 30%;
+  height: 5px;
+  color: #7562e0;
+  margin: 0 auto;
+  opacity: 100%;
+}
+
+#contact p {
+  font-size: 20px;
+}
+
+#contact .p2 {
+  float: right;
+  margin-top: -125px;
+}
+
+#contact .btn-custom6 {
+  background-color: #7562e0;
+}
+
+#contact button:hover {
+  background-color: white;
+  transition: 0.4s;
+}
+/* end contact */
+
+/* footer */
+#footer {
+  background-color: #7562e0;
+}
+/* end footer */
